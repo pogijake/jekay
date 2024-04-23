@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 17, 2024 at 08:42 AM
+-- Generation Time: Apr 23, 2024 at 08:15 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `dbtest`
+-- Database: `jaka`
 --
 
 -- --------------------------------------------------------
@@ -43,7 +43,7 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`u_id`, `u_fname`, `u_lname`, `u_email`, `u_username`, `u_password`, `u_type`, `u_status`) VALUES
-(1, 'ryan', 'cansancio', 'ryancansancio7@gmail.com', 'gwenchana', 'ryan1234', 'Admin', 'Active');
+(1, 'jake', 'capacite', 'jakecapacite@gmail.com', 'jekoy', '12345678', 'Admin', 'Active');
 
 --
 -- Indexes for dumped tables
